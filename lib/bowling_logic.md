@@ -1,0 +1,3 @@
+Game has 10 frames of 2 rolls unless 10 points in roll 1 or roll 2 of frame 10 where it has 3. If player scores 10 points in roll 1 of frame, he gets 20 points plus the points of next frame. If player scores 10 points between roll 1 and roll 2, he gets the points of the next frame. In frame 10, if the player scores 10 points in roll one he gets the points of roll 3, if player scores 10 points between roll 1 and roll 2 gets the points of roll 3, else game ends on roll 2. Return score total. 
+
+Nouns: frames, rolls, points, score. 
