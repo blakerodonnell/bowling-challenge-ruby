@@ -28,7 +28,7 @@ RSpec.describe BowlingGame do
 
     it 'can roll a strike' do
         @game.roll(10)
-        @game.roll(0)
+        @game.roll(3)
         @game.roll(4)
         16.times{@game.roll(0)}
         expect(@game.score).to eq(24)
